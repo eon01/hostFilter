@@ -5,16 +5,17 @@ hostFilter is a bash script used to prevent your computer from connecting to som
 
 Please forward any suggestion by email to amri.aymen@gmail.com
 
-usage:	 		hostFilter.sh [OPTION]
-#			-h --help : Display this message.
-#			-i : Same as ./hostFilter, it run the script.
+#usage	 		
+hostFilter.sh [OPTION]
+			-h --help : Display this message.
+			-i : Same as ./hostFilter, it run the script.
 
 
-If you want to fork the script or contribute to the lists, please visit : https://github.com/eon01/hostFilter or send me an email . 
+For any contribution, please visit : https://github.com/eon01/hostFilter or send me an email . 
 
 
 
 
 
 
-#==============================================================================
+==============================================================================
