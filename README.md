@@ -6,7 +6,7 @@ hostFilter is a bash script used to prevent your computer from connecting to som
 Please forward any suggestion by email to amri.aymen@gmail.com
 
 
-#usage	 		
+#Usage	 		
 
 hostFilter.sh [OPTION]
 
