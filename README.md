@@ -11,6 +11,7 @@ Please forward any suggestion by email to amri.aymen@gmail.com
 hostFilter.sh [OPTION]
 
 -h --help : Display this message.
+
 -i : Same as ./hostFilter, it run the script.
 
 
