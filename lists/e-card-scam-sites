@@ -1,0 +1,25 @@
+#<ecard-scam-sites>
+127.0.0.1 123greetings.com	# contains one link to distributor of adware or spyware
+127.0.0.1 2000greetings.com
+127.0.0.1 celebwelove.com
+127.0.0.1 ecard4all.com
+127.0.0.1 eforu.com
+127.0.0.1 freewebcards.com
+127.0.0.1 fukkad.com
+127.0.0.1 fun-e-cards.com
+127.0.0.1 funnyreign.com	# heavy spam (Site Advisor received 1075 e-mails/week)
+127.0.0.1 funsilly.com
+127.0.0.1 myfuncards.com
+127.0.0.1 www.cool-downloads.com
+127.0.0.1 www.cool-downloads.net
+127.0.0.1 www.friend-card.com
+127.0.0.1 www.friend-cards.com
+127.0.0.1 www.friend-cards.net
+127.0.0.1 www.friend-greeting.com
+127.0.0.1 www.friend-greetings.com
+127.0.0.1 www.friend-greetings.net
+127.0.0.1 www.friendgreetings.com
+127.0.0.1 www.friendgreetings.net
+127.0.0.1 www.laugh-mail.com
+127.0.0.1 www.laugh-mail.net
+#</ecard-scam-sites>

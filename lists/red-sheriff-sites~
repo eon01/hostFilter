@@ -1,0 +1,56 @@
+#<red-sheriff-sites>
+
+# Red Sheriff and imrworldwide.com  -- server side tracking
+#127.0.0.1 secure-au.imrworldwide.com
+127.0.0.1 devfw.imrworldwide.com
+127.0.0.1 fe-au.imrworldwide.com
+127.0.0.1 fe1-au.imrworldwide.com
+127.0.0.1 fe1-fi.imrworldwide.com
+127.0.0.1 fe1-it.imrworldwide.com
+127.0.0.1 fe2-au.imrworldwide.com
+127.0.0.1 fe3-au.imrworldwide.com
+127.0.0.1 fe3-gc.imrworldwide.com
+127.0.0.1 fe3-uk.imrworldwide.com
+127.0.0.1 fe4-uk.imrworldwide.com
+127.0.0.1 imrworldwide.com
+127.0.0.1 lycos-eu.imrworldwide.com
+127.0.0.1 ninemsn.imrworldwide.com
+127.0.0.1 rc-au.imrworldwide.com
+127.0.0.1 redsheriff.com
+127.0.0.1 secure-jp.imrworldwide.com
+127.0.0.1 secure-nz.imrworldwide.com
+127.0.0.1 secure-uk.imrworldwide.com
+127.0.0.1 secure-us.imrworldwide.com
+127.0.0.1 secure-za.imrworldwide.com
+127.0.0.1 server-au.imrworldwide.com
+127.0.0.1 server-br.imrworldwide.com
+127.0.0.1 server-by.imrworldwide.com
+127.0.0.1 server-ca.imrworldwide.com
+127.0.0.1 server-de.imrworldwide.com
+127.0.0.1 server-dk.imrworldwide.com
+127.0.0.1 server-ee.imrworldwide.com
+127.0.0.1 server-fi.imrworldwide.com
+127.0.0.1 server-fr.imrworldwide.com
+127.0.0.1 server-hk.imrworldwide.com
+127.0.0.1 server-it.imrworldwide.com
+127.0.0.1 server-jp.imrworldwide.com
+127.0.0.1 server-lt.imrworldwide.com
+127.0.0.1 server-lv.imrworldwide.com
+127.0.0.1 server-no.imrworldwide.com
+127.0.0.1 server-nz.imrworldwide.com
+127.0.0.1 server-oslo.imrworldwide.com
+127.0.0.1 server-pl.imrworldwide.com
+127.0.0.1 server-ru.imrworldwide.com
+127.0.0.1 server-se.imrworldwide.com
+127.0.0.1 server-sg.imrworldwide.com
+127.0.0.1 server-stockh.imrworldwide.com
+127.0.0.1 server-ua.imrworldwide.com
+127.0.0.1 server-uk.imrworldwide.com
+127.0.0.1 server-us.imrworldwide.com
+127.0.0.1 server-za.imrworldwide.com
+127.0.0.1 survey1-au.imrworldwide.com
+127.0.0.1 telstra.imrworldwide.com
+127.0.0.1 www.imrworldwide.com
+127.0.0.1 www.imrworldwide.com.au
+127.0.0.1 www.redsheriff.com
+#</red-sheriff-sites>
