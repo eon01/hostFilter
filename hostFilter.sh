@@ -82,7 +82,7 @@ case "$1" in
 		read -sn 1 -p "Press any key to continue...";printf "\n"	
 		if egrep -q "#<?hostFilter>" /etc/hosts;then
 			cp /etc/hosts{,.bak}
-			sed -i '/#<hostFilter>/,/<\/hostFilter>/d' /etc/hosts 1&>2			
+			sed -i '/#<hostFilter>/,/<\/hostFilter>/d' /etc/hosts 1>&2			
 			echo -e "#<hostFilter>\n$list\n#</hostFilter>" >> /etc/hosts
 		else 
 			cp /etc/hosts{,.bak}
