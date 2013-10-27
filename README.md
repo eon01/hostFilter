@@ -37,8 +37,8 @@ First you need to download the .sh file, make it executable (chmod +x) then inst
 For contributions, please visit : https://github.com/eon01/hostFilter or send me an email .
 
 #Compatibility 
-GNU bash, version 4.2.37(1)-release (GNU/Linux)
-This script will not work if you will not install SED .
+GNU bash, version 4.2.37(1)-release (GNU/Linux).
+This script will not work if you will not install SED.
 
 #Bugs
 This script is tested and works fine but in case of bug, run this command in root mode : 
