@@ -1,7 +1,7 @@
 hostFilter
 ==========
 
-hostFilter is a bash script used to prevent your computer from connecting to some websites and servers that are known to contain malicious content, including viruses, spyware, Trojans, web pages that engage in phishing attacks, spam, phorm, shocking or violent content, prevent annoying pop-ups and blocks more than 20 thousand ad servers/service ..etc. This will reduce the bandwidth use and protect your computer from malicious and unwanted softwares.
+hostFilter is a bash script used to prevent your computer from connecting to some websites and servers that are known to contain malicious content, including viruses, spyware, Trojans, web pages that engage in phishing attacks, spam, phorm, shocking or violent content, prevent annoying pop-ups and blocks more than 20 thousand ad servers/services ..etc. This will reduce the bandwidth use and protect your computer from malicious and unwanted softwares.
 Please forward any suggestion by email to amri.aymen@gmail.com
 
 
