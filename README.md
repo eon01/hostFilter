@@ -8,7 +8,7 @@ hostFilter
 Please forward any suggestion by email to amri.aymen@gmail.com
 
 
-#usage	 		
+#Usage	 		
 
 hostFilter.sh [OPTION]
 
