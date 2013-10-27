@@ -1,6 +1,6 @@
 #!/bin/bash -      
-###name			:hostFilter : Protect your computer and block undesired content.
-###description		:hostFilter is a bash script used to prevent your computer from connecting to some websites and servers that are known to contain malicious content, including viruses, spyware, Trojans, web pages that engage in phishing attacks, spam, phorm, shocking or violent content, prevent annoying pop-ups, block ad servers..etc. This will reduce the bandwidth use and protect your computer from malicious softwares. Please forward any suggestion by email to amri.aymen@gmail.com
+###name			:hostFilter : Protect your computer and save your bandwidth.
+###description		:hostFilter is a bash script used to prevent your computer from connecting to some websites and servers that are known to contain 				 malicious content, including viruses, spyware, Trojans, web pages that engage in phishing attacks, spam, phorm, shocking or violent    			 content, prevent annoying pop-ups, block ad servers..etc. This will reduce the bandwidth use and protect your computer from malicious 				 softwares. Please forward any suggestion by email to amri.aymen@gmail.com
 ###usage		:hostFilter.sh [OPTION]
 #			-h --help : Display this message.
 #			-i : Run the script.
@@ -13,11 +13,11 @@
 ###bash_version    	:GNU bash, version 4.2.37(1)-release (i686-pc-linux-gnu)
 #==============================================================================
 
-help="hostFilter is a bash script used to prevent your computer from connecting to some websites and servers that are known to contain malicious content, including viruses, spyware, Trojans, web pages that engage in phishing attacks, spam, phorm, shocking or violent content, prevent annoying pop-ups, block ad servers..etc. This will reduce the bandwidth use and protect your computer from malicious softwares.
+help="\nhostFilter is a bash script used to prevent your computer from connecting to some websites and servers that are known to contain malicious content, including viruses, spyware, Trojans, web pages that engage in phishing attacks, spam, phorm, shocking or violent content, prevent annoying pop-ups, block ad servers..etc. This will reduce the bandwidth use and protect your computer from malicious softwares.
 			-h --help : Display this message.
 			-i : Run the script.
 
-To run this script you should \n1/Install Sed \n2/Chmod +x the hostFilter.sh\n3/Run it as root.\n"
+To run this script you should : Install Sed . Chmod +x the hostFilter.sh . Run it as root."
 
 description="hostFilter is a bash script used to prevent your computer from connecting to some websites and servers that are known to contain malicious content, including viruses, spyware, Trojans, web pages that engage in phishing attacks, spam, phorm, shocking or violent content, prevent annoying pop-ups, block ad servers..etc. This will reduce the bandwidth use and protect your computer from malicious softwares.\n"
 
@@ -39,9 +39,8 @@ done
 
 case "$1" in
 	-h|--help)
-	printf "\033c" 
-	echo "$help"
-        read -p "Press any key to exit."
+	echo -e "$help"
+        read -p "Press any key to continue."
 	exit
 	;;
 
@@ -52,6 +51,7 @@ case "$1" in
 		echo "This script must be run as root" 1>&2
 		exit 1
 	else 
+		cp /etc/hosts{,.bak}
 		out="$(mktemp)"
 		printf "$description\n"
 		list_cat "[2o7-sites]"   https://raw.github.com/eon01/hostFilter/master/lists/2o7-sites  $out
@@ -81,11 +81,9 @@ case "$1" in
 
 		read -sn 1 -p "Press any key to continue...";printf "\n"	
 		if egrep -q "#<?hostFilter>" /etc/hosts;then
-			cp /etc/hosts{,.bak}
 			sed -i '/#<hostFilter>/,/<\/hostFilter>/d' /etc/hosts 1>&2			
 			echo -e "#<hostFilter>\n$list\n#</hostFilter>" >> /etc/hosts
 		else 
-			cp /etc/hosts{,.bak}
 			echo -e "#<hostFilter>\n$list\n#</hostFilter>" >> /etc/hosts
 		fi
 		
