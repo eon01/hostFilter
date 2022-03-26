@@ -18,8 +18,6 @@ This script will :
 * Reduce the bandwidth use 
 * Protect your computer from malicious and unwanted softwares/content/scripts.
 
-Please forward any suggestion by email to amri.aymen@gmail.com
-
 #Screenshot 
 
 ![hostFilter script Screenshot](http://2.bp.blogspot.com/-IFrlndwOUDs/Umz8LZ-efGI/AAAAAAAACLg/SMSYyogWxPo/s1600/Screenshot+from+2013-10-27+12:36:27.png)
